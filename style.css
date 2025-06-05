@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --black:#000;
+    --blue:#294999;
+    --light-color:#666;
+    --white:#fff;
+    --box-shadow:0.5rem 0.5rem  0 rgba(0, 0, 0, .1);
+    --border: 0.1rem solid rgba(0, 0, 0, .1);
+}
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+    text-transform: none;
+}
+html{
+    font-size: 62.5%;
+      overflow-x: hidden;
+      scroll-padding-top: 2rem;
+      scroll-behavior: smooth
+}
+section{
+    padding: 2rem 9%;
+    height: 100vh;
+}
+
+.to-dolist .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #eee;
+   border-radius: 0.5rem;
+}
+.to-dolist .box-container .content{
+  box-shadow: var(--box-shadow);
+  background: var(--white);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  max-width: 90rem;
+}
+.to-dolist .box-container .content h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.to-dolist .box-container .content .input{
+    margin: 1.5rem 0;
+    width: 100%;
+
+}
+.to-dolist .box-container .content .input input{
+    border: var(--border) ;
+    border-radius: 0.5rem;
+    background: var(--white);
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    text-transform: none;
+}
+ .btn{
+    background: var(--blue);
+    color: var(--white);
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+}
+.check-boxes .box{
+   
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.check-boxes .box label{
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    font-weight: 400;
+    cursor: pointer;
+}
+ .check-boxes .box input {
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.check-boxes .box i{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    color: var(--black);
+  
+}
+
