@@ -13,9 +13,8 @@ window.onload = () => {
 addBtn.addEventListener('click', () => {
   const taskText = input.value.trim();
   if (taskText === "") return;
-
-  addTaskToUI(taskText, false);//داله لاضافه المهمه الي الصفحه وهذه المهمه غير مكتملة
-  saveTask(taskText, false);// وهذه المهمه غير مكتمله ايضاداله لحفظ المهمه في التخزين المحلي او في قاعده البيانات
+  addTaskToUI(taskText,false);
+  saveTask(taskText,false);
   input.value = "";
 });
 
