@@ -50,12 +50,12 @@ section{
     padding: 1rem 0;
     margin-bottom: 1rem;
 }
-.to-dolist .box-container .content .input{
+.to-dolist .box-container .content .task-input{
     margin: 1.5rem 0;
     width: 100%;
 
 }
-.to-dolist .box-container .content .input input{
+.to-dolist .box-container .content .task-input  input{
     border: var(--border) ;
     border-radius: 0.5rem;
     background: var(--white);
